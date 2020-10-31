@@ -1,0 +1,421 @@
+.App {
+  text-align: center;
+}
+
+.app-header {
+  background-color: #f2f2f2;
+  min-height: 10vh;
+  height: 10vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-size: calc(10px + 2vmin);
+  color: #333333;
+}
+
+.app-header .brand {
+  margin: 0 0 0 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  cursor: pointer;
+}
+
+.app-header .brand .brand-name {
+  margin: 0 10px 0 0;
+}
+
+.app-header .brand .brand-logo {
+  animation: App-logo-spin infinite 20s linear;
+  color: #333333;
+}
+
+.app-header .nav {
+  margin: 0 10px 0 0;
+  font-size: calc(10px + 1vmin);
+}
+
+.app-header .nav .nav-list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.app-header .nav .nav-list li {
+  list-style: none;
+  margin: 0 10px 0 10px;
+  cursor: pointer;
+}
+
+.app-header .nav .nav-list li a {
+  color: #333333;
+  text-decoration: none;
+}
+
+.app-header .nav .nav-list li:hover a {
+  color: grey;
+}
+
+.app-sectionA {
+  background-color: #ffffff;
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #333333;
+}
+
+.app-sectionA .title {
+  margin: 10px 0 10px 10px;
+}
+
+.app-sectionA .body {
+  height: 75vh;
+  width: 90vw;
+}
+
+.app-sectionA .body .intro {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 10vh;
+}
+
+.app-sectionA .body .intro {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 10vh;
+}
+
+.app-sectionA .body .intro .sort {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  width: max-content;
+  min-width: 40vw;
+}
+
+.app-sectionA .body .intro .sort .sorted {
+  /* display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  width: max-content; */
+  margin: 0 10px 0 0;
+}
+
+.app-sectionA .body .trunk {
+  margin: 0 0 0 10px;
+  min-height: 50vh;
+}
+
+.tField {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 30px;
+}
+
+.tField .text {
+  flex: 2;
+}
+
+.tField .img {
+  flex: 1;
+}
+
+.tField .text .accent {
+  color: #ff649e;
+}
+
+.tField2 {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.tField2 .text2 {
+  margin: 60px 0 0 0;
+}
+
+.tField2 .text2 .text2b {
+  margin: 0 0 0 35px;
+  color: #f50057;
+}
+
+.app-sectionA .body .pack {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 0 10px 0 10px;
+}
+
+.app-sectionA .body .pack .p-border {
+  width: 2px;
+  height: 70vh;
+  margin: 0 2vh 0 2vh;
+  background-color: #f2f2f2;
+}
+
+.app-sectionA .body .pack .p-card {
+  background-color: #ffffff;
+  color: #333333;
+  width: 400px;
+  border-radius: 5px 10px 5px 10px;
+  transition: 0.5s;
+  transform: scale(1);
+}
+
+.app-sectionA .body .pack .p-card:hover {
+  transition: 0.5s;
+  transform: scale(1.025);
+}
+
+.app-sectionA .body .pack .p-card .p-card-title {
+  font-size: medium;
+  text-align: left;
+  margin: 10px 0 10px 10px;
+}
+
+.app-sectionA .body .pack .p-card .p-card-body {
+  text-align: left;
+  color: gray;
+  min-height: 20vh;
+  height: max-content;
+  margin: 10px 0 0 10px;
+}
+
+.app-sectionA .body .pack .p-card .p-card-img {
+  width: 90%;
+  margin: 10px auto 10px auto;
+}
+
+.app-sectionA .body .pack .p-card .p-card-footer {
+  text-align: right;
+  margin: 0 10px 10px 0;
+}
+
+.app-sectionA .body .pack .p-card .p-card-footer a {
+  text-decoration: none;
+  color: #333333;
+}
+
+.app-sectionA .body .pack .p-card .p-card-footer a:hover {
+  text-decoration: none;
+  color: gray;
+}
+
+.app-sectionA .body .table {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 0 10px 0;
+}
+
+.app-sectionA .body .orderForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 15vh 0 10px 0;
+}
+
+.app-sectionA .body .order {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 0 10px 0;
+}
+
+.app-sectionA .body .order .options {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 0 10px 0;
+}
+
+.app-sectionA .body .order .options .field {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.app-sectionA .body .order .options .radio {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 10px;
+}
+
+.app-sectionA .body .record {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin: 10px;
+}
+
+.app-sectionA .body .record .display {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  margin: 0 auto 0 auto;
+}
+
+.app-sectionA .body .record .display .card {
+  min-width: 300px;
+  min-height: 560px;
+  margin: 10px;
+}
+
+.app-sectionA .body .record .display .field {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 0 0 0;
+}
+
+.app-sectionA .body .record .display .update .update-columns {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.app-sectionB {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.app-sectionB .img {
+  width: 90%;
+  margin: 20px auto 20px auto;
+}
+
+@media screen and (max-width: 600px) {
+  .app-header {
+    display: block;
+    height: max-content;
+  }
+
+  .app-header .brand {
+    padding: 10px 0 0 0;
+  }
+
+  .app-header .nav .nav-list {
+    padding: 10px 0 10px 0;
+  }
+
+  .app-sectionA .body {
+    height: 40vh;
+    width: 90vw;
+  }
+
+  .app-sectionA .body .intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+  }
+
+  .app-sectionA .body .intro .sort {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: max-content;
+    min-width: 90vw;
+  }
+
+  .app-sectionA .body .pack {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex;
+  }
+
+  .app-sectionA .body .pack .p-border {
+    display: none;
+  }
+
+  .app-sectionA .body .pack .p-card {
+    background: #ffffff;
+    color: #333333;
+    width: 90%;
+    margin: 20px 0 20px 0;
+    transition: 0.5s;
+  }
+
+  .app-sectionA .body .pack .p-card .p-card-body {
+    font-size: medium;
+    height: 20vh;
+    margin: 10px 0 0 10px;
+  }
+
+  .app-sectionA .body .order .options {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0 10px 0;
+  }
+
+  .app-sectionA .body .record .display {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .app-sectionA .body .record .display .card {
+    min-height: max-content;
+    margin: 10px;
+  }
+
+  .app-sectionA .body .record .display .update .update-columns {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0 0 0;
+  }
+
+  .tField {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
