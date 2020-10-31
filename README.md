@@ -1,1 +1,3 @@
-# create-react-app with a Node server on Heroku
+# Order Management & Tracking System.
+
+Heroku buildpack provided by https://github.com/mars/heroku-cra-node.git
